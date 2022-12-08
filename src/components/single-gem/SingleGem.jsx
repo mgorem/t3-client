@@ -18,7 +18,9 @@ const SingleGem = () => {
           border-tertiary w-full p-3 flex flex-col gap-4 
           transition-all cursor-pointer px-8 pb-10 mt-20 mb-10"
         >
-          <img src={mainImage} alt="" className="w-full rounded-2xl" />
+          {gems.map((item, index) => (
+            <img src={mainImage} alt="" className="w-full rounded-2xl" />
+          ))}
           <ul className="flex items-center justify-start gap-5 flex-wrap mt-5">
             {gems.map((item, index) => (
               <li

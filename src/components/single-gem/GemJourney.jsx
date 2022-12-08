@@ -18,6 +18,15 @@ const GemJourney = () => {
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
           <article>
+            <div className="flex items-center gap-3 mr-12 cursor-pointer transition-all">
+              <img
+                className="md:h-[550px] h-full object-cover border-3 rounded-2xl"
+                src={Miner1}
+                alt="Miner1"
+              />
+            </div>
+          </article>
+          <article>
             <div className="text-tertiary">
               <h1 className="text-tertiary md:text-4xl font-semibold md:leading-snug text-3xl leading-normal">
                 Miner Profile
@@ -52,15 +61,6 @@ const GemJourney = () => {
                 voluptate ab. Placeat enim nam, sed impedit iure libero veniam,
                 fugit deserunt esse nihil quas repudiandae aut ab.
               </p>
-            </div>
-          </article>
-          <article>
-            <div className="flex items-center gap-3 mr-12 cursor-pointer transition-all">
-              <img
-                className="md:h-[550px] h-full object-cover border-3 rounded-2xl"
-                src={Miner1}
-                alt="Miner1"
-              />
             </div>
           </article>
         </div>
