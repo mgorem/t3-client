@@ -20,6 +20,7 @@ import ContributorList from "./pages/dash/ContributorList";
 import TransactionList from "./pages/dash/TransactionList";
 import GemList from "./pages/dash/GemList";
 import Dashboard from "./pages/d-board/Dashboard";
+import TrackingHistory from "./pages/TrackingHistory";
 
 const App = () => {
   const currentUser = true;
@@ -84,6 +85,16 @@ const App = () => {
                 element={
                   <RequireAuth>
                     <GemList />
+                  </RequireAuth>
+                }
+              />
+            </Route>
+            <Route path="/trackinghistory">
+              <Route
+                index
+                element={
+                  <RequireAuth>
+                    <TrackingHistory />
                   </RequireAuth>
                 }
               />

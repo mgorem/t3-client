@@ -79,7 +79,7 @@ const SingleGem = () => {
             </ul>
           </div> */}
           <div className="text-center">
-            <Link to="/checkout">
+            <Link to="/trackinghistory">
               <button
                 className="flex items-center justify-center gap-4 bg-tertiary 
                             text-primary font-bold py-2 px-4 rounded-lg shadow mt-5 w-1/2"
