@@ -85,9 +85,7 @@ const SingleGem = () => {
                             text-primary font-bold py-2 px-4 rounded-lg shadow mt-5 w-1/2"
               >
                 <FaGem />
-                <span className="text-xl text-semibold">
-                  Gem Tracking History
-                </span>
+                <span className="text-xl text-semibold">Trace Gem</span>
               </button>
             </Link>
           </div>
