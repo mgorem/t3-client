@@ -38,10 +38,10 @@ const SingleGem = () => {
             className="bg-gray py-1 text-secondary uppercase 
     tracking-wide text-md font-bold inline-block rounded shadow mb-5"
           >
-            Gemfund Company
+            More Gem Details
           </h2>
           <h1 className="font-primary text-tertiary mb-10 font-bold text-3xl lg:text-4xl">
-            TT-0001-AWE
+            Gem ID: TT-0001-AWE
           </h1>
           <p className="font-primary text-tertiary text-xl font-bolder mb-10 leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
@@ -49,23 +49,35 @@ const SingleGem = () => {
             tenetur minus
           </p>
           <ul>
-            <li className="text-tertiary">Weight: 7.58 Carats</li>
-            <li className="text-tertiary">
-              Measurement: 14.09 * 9.79 * 7.37mm
+            <li className="text-tertiary text-xl">
+              Weight: <span className="text-secondary">7.58 Carats</span>
             </li>
-            <li className="text-tertiary">Shape: </li>
-            <li className="text-tertiary">Weight</li>
-            <li className="text-tertiary">Weight</li>
-            <li className="text-tertiary">
-              Clarity: Medium to Medium Deep Tone, Strong Intensity{" "}
+            <li className="text-tertiary text-xl">
+              Measurement:{" "}
+              <span className="text-secondary">14.09 * 9.79 * 7.37mm</span>
             </li>
-            <li className="text-tertiary">Cut and Polish: Excellent</li>
+            <li className="text-tertiary text-xl">
+              Hue: <span className="text-secondary">Violetish-Red-Hue</span>
+            </li>
+            <li className="text-tertiary text-xl">
+              Tone:{" "}
+              <span className="text-secondary">Medium to Medium Deep Tone</span>
+            </li>
+            <li className="text-tertiary text-xl">
+              Intensity: <span className="text-secondary">Strong</span>
+            </li>
+            <li className="text-tertiary text-xl">
+              Cut and Polish: <span className="text-secondary">Excellent</span>
+            </li>
+            <li className="text-tertiary text-xl">
+              Shape: <span className="text-secondary">Oval</span>
+            </li>
           </ul>
-          <div className="flex flex-wrap items-center justify-between">
+          {/* <div className="flex flex-wrap items-center justify-between">
             <ul className="flex items-center mb-10">
               <li className=" text-4xl font-bold">$125.00</li>
             </ul>
-          </div>
+          </div> */}
           <div className="text-center">
             <Link to="/checkout">
               <button
@@ -73,7 +85,9 @@ const SingleGem = () => {
                             text-primary font-bold py-2 px-4 rounded-lg shadow mt-5 w-1/2"
               >
                 <FaGem />
-                Buy Gem
+                <span className="text-xl text-semibold">
+                  Gem Tracking History
+                </span>
               </button>
             </Link>
           </div>

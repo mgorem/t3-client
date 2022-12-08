@@ -11,9 +11,9 @@ const GemJourney = () => {
           <h1 className="font-primary text-center text-tertiary font-bold text-3xl md:text-6xl mt-10 mb-10">
             The Gem Journey
           </h1>
-          <div className="flex flex-col items-center justify-center mt-5 mb-5">
+          {/* <div className="flex flex-col items-center justify-center mt-5 mb-5">
             <h1 className="text-tertiary">Gem Process</h1>
-          </div>
+          </div> */}
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
